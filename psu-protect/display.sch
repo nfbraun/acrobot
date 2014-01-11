@@ -1,0 +1,603 @@
+EESchema Schematic File Version 2  date Mi 08 Jan 2014 23:56:00 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:owncomp
+LIBS:psu-protect-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 3 3
+Title ""
+Date "8 jan 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2200 1900 1    60   Input ~ 0
+CURR_IN
+Wire Wire Line
+	6600 1550 6600 5000
+Wire Wire Line
+	2600 1550 2600 5000
+Wire Wire Line
+	8600 2400 8600 6700
+Connection ~ 2200 5300
+Wire Wire Line
+	6200 1350 6200 5300
+Wire Wire Line
+	6200 1350 5200 1350
+Wire Wire Line
+	5200 1350 5200 6350
+Wire Wire Line
+	5200 6350 2200 6350
+Wire Wire Line
+	2200 6350 2200 1900
+Connection ~ 6000 4500
+Wire Wire Line
+	6000 4500 6700 4500
+Connection ~ 6000 2500
+Wire Wire Line
+	6000 2500 6700 2500
+Wire Wire Line
+	6000 4100 6000 4600
+Connection ~ 6600 2000
+Wire Wire Line
+	7100 2000 6600 2000
+Connection ~ 6400 3800
+Wire Wire Line
+	7100 3800 6400 3800
+Connection ~ 6400 5800
+Wire Wire Line
+	6400 6100 6400 2800
+Wire Wire Line
+	6400 2800 7100 2800
+Wire Wire Line
+	6600 5000 7100 5000
+Wire Wire Line
+	6400 5800 7100 5800
+Wire Wire Line
+	7100 4800 6400 4800
+Connection ~ 6400 4800
+Wire Wire Line
+	7100 4000 6600 4000
+Connection ~ 6600 4000
+Wire Wire Line
+	7100 3000 6600 3000
+Connection ~ 6600 3000
+Connection ~ 6200 2300
+Wire Wire Line
+	6200 2300 6700 2300
+Connection ~ 6200 3300
+Wire Wire Line
+	6700 3300 6200 3300
+Connection ~ 6200 4300
+Wire Wire Line
+	6700 4300 6200 4300
+Wire Wire Line
+	6200 5300 6700 5300
+Wire Wire Line
+	6000 3100 6000 3600
+Wire Wire Line
+	6000 5100 6000 5600
+Wire Wire Line
+	6000 3500 6700 3500
+Connection ~ 6000 3500
+Wire Wire Line
+	6000 5500 6700 5500
+Connection ~ 6000 5500
+Connection ~ 2000 5500
+Wire Wire Line
+	2000 5500 2700 5500
+Connection ~ 2000 3500
+Wire Wire Line
+	2000 3500 2700 3500
+Wire Wire Line
+	2000 5100 2000 5600
+Wire Wire Line
+	2000 3100 2000 3600
+Wire Wire Line
+	2200 5300 2700 5300
+Wire Wire Line
+	2700 4300 2200 4300
+Connection ~ 2200 4300
+Wire Wire Line
+	2700 3300 2200 3300
+Connection ~ 2200 3300
+Wire Wire Line
+	2200 2300 2700 2300
+Connection ~ 2200 2300
+Connection ~ 2600 3000
+Wire Wire Line
+	3100 3000 2600 3000
+Connection ~ 2600 4000
+Wire Wire Line
+	3100 4000 2600 4000
+Connection ~ 2400 4800
+Wire Wire Line
+	3100 4800 2400 4800
+Wire Wire Line
+	2400 5800 3100 5800
+Wire Wire Line
+	2600 5000 3100 5000
+Wire Wire Line
+	3100 2800 2400 2800
+Wire Wire Line
+	2400 2800 2400 6100
+Connection ~ 2400 5800
+Wire Wire Line
+	3100 3800 2400 3800
+Connection ~ 2400 3800
+Wire Wire Line
+	3100 2000 2600 2000
+Connection ~ 2600 2000
+Wire Wire Line
+	2000 2200 2000 2600
+Wire Wire Line
+	2000 4100 2000 4600
+Wire Wire Line
+	2000 2500 2700 2500
+Connection ~ 2000 2500
+Wire Wire Line
+	2000 4500 2700 4500
+Connection ~ 2000 4500
+Wire Wire Line
+	2000 6100 2000 6550
+Wire Wire Line
+	2000 6550 5400 6550
+Wire Wire Line
+	5400 6550 5400 1550
+Wire Wire Line
+	5400 1550 6000 1550
+Wire Wire Line
+	6000 1550 6000 2600
+Wire Wire Line
+	4600 6100 4600 2400
+Wire Wire Line
+	2000 1700 2000 1550
+Wire Wire Line
+	7700 6400 7700 6200
+$Comp
+L +5V #PWR?
+U 1 1 52CDBCBB
+P 6600 1550
+F 0 "#PWR?" H 6600 1640 20  0001 C CNN
+F 1 "+5V" H 6600 1640 30  0000 C CNN
+	1    6600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 52CDBCA7
+P 7700 6200
+F 0 "#PWR?" H 7700 6290 20  0001 C CNN
+F 1 "+5V" H 7700 6290 30  0000 C CNN
+	1    7700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 52CDBC93
+P 2600 1550
+F 0 "#PWR?" H 2600 1640 20  0001 C CNN
+F 1 "+5V" H 2600 1640 30  0000 C CNN
+	1    2600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 52CDBC3A
+P 2000 1550
+F 0 "#PWR?" H 2000 1640 20  0001 C CNN
+F 1 "+5V" H 2000 1640 30  0000 C CNN
+	1    2000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52CDBB9C
+P 8600 6700
+F 0 "#PWR?" H 8600 6700 30  0001 C CNN
+F 1 "GND" H 8600 6630 30  0001 C CNN
+	1    8600 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDBB72
+P 8400 6400
+F 0 "D?" H 8400 6500 50  0000 C CNN
+F 1 "LED" H 8400 6300 50  0000 C CNN
+	1    8400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDBB6B
+P 7950 6400
+F 0 "R?" V 8030 6400 50  0000 C CNN
+F 1 "390" V 7950 6400 50  0000 C CNN
+	1    7950 6400
+	0    -1   -1   0   
+$EndComp
+Text Notes 5700 5550 0    60   ~ 0
+2.50V
+Text Notes 5700 4550 0    60   ~ 0
+2.54V
+Text Notes 5700 3550 0    60   ~ 0
+2.6V
+Text Notes 5700 2550 0    60   ~ 0
+2.7V
+Text Notes 1700 5550 0    60   ~ 0
+2.9V
+Text Notes 1700 4550 0    60   ~ 0
+3.3V
+Text Notes 1700 3550 0    60   ~ 0
+3.5V
+Text Notes 1700 2550 0    60   ~ 0
+3.7V
+$Comp
+L GND #PWR?
+U 1 1 52CDB98A
+P 6000 6100
+F 0 "#PWR?" H 6000 6100 30  0001 C CNN
+F 1 "GND" H 6000 6030 30  0001 C CNN
+	1    6000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52CDB971
+P 6400 6100
+F 0 "#PWR?" H 6400 6100 30  0001 C CNN
+F 1 "GND" H 6400 6030 30  0001 C CNN
+	1    6400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52CDB969
+P 4600 6100
+F 0 "#PWR?" H 4600 6100 30  0001 C CNN
+F 1 "GND" H 4600 6030 30  0001 C CNN
+	1    4600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52CDB961
+P 2400 6100
+F 0 "#PWR?" H 2400 6100 30  0001 C CNN
+F 1 "GND" H 2400 6030 30  0001 C CNN
+	1    2400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM324 U?
+U 1 1 52CDB909
+P 7200 2400
+F 0 "U?" H 7250 2600 60  0000 C CNN
+F 1 "LM324" H 7350 2200 50  0000 C CNN
+	1    7200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB908
+P 7950 2400
+F 0 "R?" V 8030 2400 50  0000 C CNN
+F 1 "390" V 7950 2400 50  0000 C CNN
+	1    7950 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDB907
+P 8400 2400
+F 0 "D?" H 8400 2500 50  0000 C CNN
+F 1 "LED" H 8400 2300 50  0000 C CNN
+	1    8400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDB906
+P 8400 3400
+F 0 "D?" H 8400 3500 50  0000 C CNN
+F 1 "LED" H 8400 3300 50  0000 C CNN
+	1    8400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB905
+P 7950 3400
+F 0 "R?" V 8030 3400 50  0000 C CNN
+F 1 "390" V 7950 3400 50  0000 C CNN
+	1    7950 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LM324 U?
+U 1 1 52CDB904
+P 7200 3400
+F 0 "U?" H 7250 3600 60  0000 C CNN
+F 1 "LM324" H 7350 3200 50  0000 C CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM324 U?
+U 1 1 52CDB903
+P 7200 5400
+F 0 "U?" H 7250 5600 60  0000 C CNN
+F 1 "LM324" H 7350 5200 50  0000 C CNN
+	1    7200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB902
+P 7950 5400
+F 0 "R?" V 8030 5400 50  0000 C CNN
+F 1 "390" V 7950 5400 50  0000 C CNN
+	1    7950 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDB901
+P 8400 5400
+F 0 "D?" H 8400 5500 50  0000 C CNN
+F 1 "LED" H 8400 5300 50  0000 C CNN
+	1    8400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDB900
+P 8400 4400
+F 0 "D?" H 8400 4500 50  0000 C CNN
+F 1 "LED" H 8400 4300 50  0000 C CNN
+	1    8400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB8FF
+P 7950 4400
+F 0 "R?" V 8030 4400 50  0000 C CNN
+F 1 "390" V 7950 4400 50  0000 C CNN
+	1    7950 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LM324 U?
+U 1 1 52CDB8FE
+P 7200 4400
+F 0 "U?" H 7250 4600 60  0000 C CNN
+F 1 "LM324" H 7350 4200 50  0000 C CNN
+	1    7200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB8FD
+P 6000 2850
+F 0 "R?" V 6080 2850 50  0000 C CNN
+F 1 "499" V 6000 2850 50  0000 C CNN
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB8FC
+P 6000 3850
+F 0 "R?" V 6080 3850 50  0000 C CNN
+F 1 "301" V 6000 3850 50  0000 C CNN
+	1    6000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB8FB
+P 6000 4850
+F 0 "R?" V 6080 4850 50  0000 C CNN
+F 1 "200" V 6000 4850 50  0000 C CNN
+	1    6000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB8FA
+P 6000 5850
+F 0 "R?" V 6080 5850 50  0000 C CNN
+F 1 "12k4" V 6000 5850 50  0000 C CNN
+	1    6000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB8BE
+P 2000 1950
+F 0 "R?" V 2080 1950 50  0000 C CNN
+F 1 "18k7" V 2000 1950 50  0000 C CNN
+	1    2000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB8B1
+P 2000 5850
+F 0 "R?" V 2080 5850 50  0000 C CNN
+F 1 "1k" V 2000 5850 50  0000 C CNN
+	1    2000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB899
+P 2000 4850
+F 0 "R?" V 2080 4850 50  0000 C CNN
+F 1 "1k" V 2000 4850 50  0000 C CNN
+	1    2000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB88D
+P 2000 3850
+F 0 "R?" V 2080 3850 50  0000 C CNN
+F 1 "1k" V 2000 3850 50  0000 C CNN
+	1    2000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB7F1
+P 2000 2850
+F 0 "R?" V 2080 2850 50  0000 C CNN
+F 1 "1k" V 2000 2850 50  0000 C CNN
+	1    2000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM324 U?
+U 3 1 52CDB103
+P 3200 4400
+F 0 "U?" H 3250 4600 60  0000 C CNN
+F 1 "LM324" H 3350 4200 50  0000 C CNN
+	3    3200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB102
+P 3950 4400
+F 0 "R?" V 4030 4400 50  0000 C CNN
+F 1 "390" V 3950 4400 50  0000 C CNN
+	1    3950 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDB101
+P 4400 4400
+F 0 "D?" H 4400 4500 50  0000 C CNN
+F 1 "LED" H 4400 4300 50  0000 C CNN
+	1    4400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDB100
+P 4400 5400
+F 0 "D?" H 4400 5500 50  0000 C CNN
+F 1 "LED" H 4400 5300 50  0000 C CNN
+	1    4400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB0FF
+P 3950 5400
+F 0 "R?" V 4030 5400 50  0000 C CNN
+F 1 "390" V 3950 5400 50  0000 C CNN
+	1    3950 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LM324 U?
+U 4 1 52CDB0FE
+P 3200 5400
+F 0 "U?" H 3250 5600 60  0000 C CNN
+F 1 "LM324" H 3350 5200 50  0000 C CNN
+	4    3200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM324 U?
+U 2 1 52CDB0F5
+P 3200 3400
+F 0 "U?" H 3250 3600 60  0000 C CNN
+F 1 "LM324" H 3350 3200 50  0000 C CNN
+	2    3200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB0F4
+P 3950 3400
+F 0 "R?" V 4030 3400 50  0000 C CNN
+F 1 "390" V 3950 3400 50  0000 C CNN
+	1    3950 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDB0F3
+P 4400 3400
+F 0 "D?" H 4400 3500 50  0000 C CNN
+F 1 "LED_YELLOW" H 4400 3300 50  0000 C CNN
+	1    4400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52CDB0D0
+P 4400 2400
+F 0 "D?" H 4400 2500 50  0000 C CNN
+F 1 "LED_RED" H 4400 2300 50  0000 C CNN
+	1    4400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 52CDB0C7
+P 3950 2400
+F 0 "R?" V 4030 2400 50  0000 C CNN
+F 1 "390" V 3950 2400 50  0000 C CNN
+	1    3950 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LM324 U?
+U 1 1 52CDB067
+P 3200 2400
+F 0 "U?" H 3250 2600 60  0000 C CNN
+F 1 "LM324" H 3350 2200 50  0000 C CNN
+	1    3200 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
