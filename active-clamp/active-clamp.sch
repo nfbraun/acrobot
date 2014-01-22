@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fr 10 Jan 2014 01:47:04 CET
+EESchema Schematic File Version 2  date Sa 11 Jan 2014 20:57:17 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:owncomp
-LIBS:active-clamp-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267

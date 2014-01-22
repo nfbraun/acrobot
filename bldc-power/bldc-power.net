@@ -1,523 +1,567 @@
-# EESchema Netlist Version 1.1 created  Do 09 Jan 2014 01:10:01 CET
+# EESchema Netlist Version 1.1 created  Mi 22 Jan 2014 00:53:42 CET
 (
- ( /52C8627E/52C8A2D0 $noname$ C1 C
-  ( 1 N-000061 )
-  ( 2 GND )
- )
- ( /52C8627E/52C8A41C $noname$ C2 C
-  ( 1 N-000051 )
-  ( 2 GND )
- )
- ( /52C8627E/52C8A2D6 $noname$ C3 C
-  ( 1 N-000058 )
-  ( 2 GND )
- )
- ( /52C8627E/52C8A41B $noname$ C4 C
-  ( 1 N-000050 )
-  ( 2 GND )
- )
- ( /52C8627E/52C8A2E0 $noname$ C5 C
-  ( 1 +5V )
-  ( 2 GND )
- )
- ( /52C8627E/52C8A41A $noname$ C6 C
-  ( 1 +5V )
-  ( 2 GND )
- )
- ( /52C8564E/52C856EB $noname$ C7 C
-  ( 1 +12V )
-  ( 2 N-000046 )
- )
- ( /52C8564E/52C86193 $noname$ C8 C
-  ( 1 +12V )
-  ( 2 N-000047 )
- )
- ( /52C8564E/52C856CD $noname$ C9 C
-  ( 1 N-000045 )
-  ( 2 N-000042 )
- )
- ( /52C8564E/52C86194 $noname$ C10 C
-  ( 1 N-000048 )
-  ( 2 N-000049 )
- )
- ( /52C8564E/52C8617E $noname$ C11 C
-  ( 1 +12V )
-  ( 2 N-000044 )
- )
- ( /52C8564E/52C8617F $noname$ C12 C
-  ( 1 N-000043 )
-  ( 2 N-000041 )
- )
- ( /52C8564E/52C856A3 $noname$ D1 DIODE
-  ( 1 +12V )
-  ( 2 N-000045 )
- )
- ( /52C8564E/52C86195 $noname$ D2 DIODE
-  ( 1 +12V )
-  ( 2 N-000048 )
- )
- ( /52C8564E/52C86180 $noname$ D3 DIODE
-  ( 1 +12V )
-  ( 2 N-000043 )
- )
- ( /52C8646C $noname$ P1 CONN_6
-  ( 1 /Gate_Driver/UH_IN )
-  ( 2 /Gate_Driver/UL_IN )
-  ( 3 /Gate_Driver/VH_IN )
-  ( 4 /Gate_Driver/VL_IN )
-  ( 5 /Gate_Driver/WH_IN )
-  ( 6 /Gate_Driver/WL_IN )
- )
- ( /52C8651D $noname$ P2 CONN_2
-  ( 1 +12V )
-  ( 2 GND )
- )
- ( /52C864C1 $noname$ P3 CONN_3
-  ( 1 /Current_sense/U_OUT )
-  ( 2 ? )
-  ( 3 /Current_sense/W_OUT )
- )
- ( /52C8564E/52C85748 $noname$ R1 R
-  ( 1 /Gate_Driver/UL_IN )
-  ( 2 GND )
- )
- ( /52C8564E/52C86190 $noname$ R2 R
-  ( 1 /Gate_Driver/WL_IN )
-  ( 2 GND )
- )
- ( /52C8564E/52C8574D $noname$ R3 R
-  ( 1 /Gate_Driver/UH_IN )
-  ( 2 GND )
- )
- ( /52C8564E/52C8618F $noname$ R4 R
-  ( 1 /Gate_Driver/WH_IN )
-  ( 2 GND )
- )
- ( /52C8564E/52C8617B $noname$ R5 R
-  ( 1 /Gate_Driver/VL_IN )
-  ( 2 GND )
- )
- ( /52C8564E/52C8617A $noname$ R6 R
-  ( 1 /Gate_Driver/VH_IN )
-  ( 2 GND )
- )
- ( /52C84BF5/52CDE216 $noname$ R7 R
-  ( 1 N-000033 )
-  ( 2 /Gate_Driver/UH_GATE )
- )
- ( /52C84BF5/52CDE308 $noname$ R8 R
-  ( 1 N-000030 )
-  ( 2 /Gate_Driver/UL_GATE )
- )
- ( /52C84BF5/52CDE259 $noname$ R9 R
-  ( 1 N-000032 )
-  ( 2 /Gate_Driver/UH_GATE )
- )
- ( /52C84BF5/52CDE30C $noname$ R10 R
-  ( 1 N-000029 )
-  ( 2 /Gate_Driver/UL_GATE )
- )
- ( /52C84BF5/52CDE261 $noname$ R11 R
-  ( 1 N-000031 )
-  ( 2 /Gate_Driver/UH_GATE )
- )
- ( /52C84BF5/52CDE312 $noname$ R12 R
-  ( 1 N-000028 )
-  ( 2 /Gate_Driver/UL_GATE )
- )
- ( /52C84BF5/52CDE390 $noname$ R13 R
-  ( 1 N-000034 )
-  ( 2 /Gate_Driver/VH_GATE )
- )
- ( /52C84BF5/52CDE38D $noname$ R14 R
-  ( 1 N-000025 )
-  ( 2 /Gate_Driver/VL_GATE )
- )
- ( /52C84BF5/52CDE38F $noname$ R15 R
-  ( 1 N-000035 )
-  ( 2 /Gate_Driver/VH_GATE )
- )
- ( /52C84BF5/52CDE38C $noname$ R16 R
-  ( 1 N-000026 )
-  ( 2 /Gate_Driver/VL_GATE )
- )
- ( /52C84BF5/52CDE38E $noname$ R17 R
-  ( 1 N-000036 )
-  ( 2 /Gate_Driver/VH_GATE )
- )
- ( /52C84BF5/52CDE38B $noname$ R18 R
-  ( 1 N-000027 )
-  ( 2 /Gate_Driver/VL_GATE )
- )
- ( /52C84BF5/52CDE39D $noname$ R19 R
-  ( 1 N-000040 )
-  ( 2 /Gate_Driver/WH_GATE )
- )
- ( /52C84BF5/52CDE3A0 $noname$ R20 R
-  ( 1 N-000038 )
-  ( 2 /Gate_Driver/WL_GATE )
- )
- ( /52C84BF5/52CDE39E $noname$ R21 R
-  ( 1 N-000039 )
-  ( 2 /Gate_Driver/WH_GATE )
- )
- ( /52C84BF5/52CDE3A1 $noname$ R22 R
-  ( 1 N-000024 )
-  ( 2 /Gate_Driver/WL_GATE )
- )
- ( /52C84BF5/52CDE39F $noname$ R23 R
-  ( 1 N-000037 )
-  ( 2 /Gate_Driver/WH_GATE )
- )
- ( /52C84BF5/52CDE3A2 $noname$ R24 R
-  ( 1 N-000023 )
-  ( 2 /Gate_Driver/WL_GATE )
- )
- ( /52C8627E/52C8A0C6 ACS709 U1 ACS709
-  ( 1 /Current_sense/U_IN )
-  ( 2 /Current_sense/U_IN )
-  ( 3 /Current_sense/U_IN )
-  ( 4 /Current_sense/U_IN )
-  ( 5 /Current_sense/U_IN )
-  ( 6 /Current_sense/U_IN )
-  ( 7 /Current_sense/U_OUT )
-  ( 8 /Current_sense/U_OUT )
-  ( 9 /Current_sense/U_OUT )
-  ( 10 /Current_sense/U_OUT )
-  ( 11 /Current_sense/U_OUT )
-  ( 12 /Current_sense/U_OUT )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 GND )
-  ( 16 N-000061 )
-  ( 17 N-000058 )
-  ( 18 ? )
-  ( 19 ? )
-  ( 20 +5V )
-  ( 21 GND )
-  ( 22 GND )
-  ( 23 ? )
-  ( 24 ? )
- )
- ( /52C8627E/52C8A41E ACS709 U2 ACS709
-  ( 1 /Current_sense/W_IN )
-  ( 2 /Current_sense/W_IN )
-  ( 3 /Current_sense/W_IN )
-  ( 4 /Current_sense/W_IN )
-  ( 5 /Current_sense/W_IN )
-  ( 6 /Current_sense/W_IN )
-  ( 7 /Current_sense/W_OUT )
-  ( 8 /Current_sense/W_OUT )
-  ( 9 /Current_sense/W_OUT )
-  ( 10 /Current_sense/W_OUT )
-  ( 11 /Current_sense/W_OUT )
-  ( 12 /Current_sense/W_OUT )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 GND )
-  ( 16 N-000051 )
-  ( 17 N-000050 )
-  ( 18 ? )
-  ( 19 ? )
-  ( 20 +5V )
-  ( 21 GND )
-  ( 22 GND )
-  ( 23 ? )
-  ( 24 ? )
- )
- ( /52C8564E/52C8569E IRF_SO8 U3 IR2101
-  ( 1 +12V )
-  ( 2 /Gate_Driver/UH_IN )
-  ( 3 /Gate_Driver/UL_IN )
-  ( 4 N-000046 )
-  ( 5 /Gate_Driver/UL_GATE )
-  ( 6 N-000042 )
-  ( 7 /Gate_Driver/UH_GATE )
-  ( 8 N-000045 )
- )
- ( /52C8564E/52C86196 IRF_SO8 U4 IR2101
-  ( 1 +12V )
-  ( 2 /Gate_Driver/WH_IN )
-  ( 3 /Gate_Driver/WL_IN )
-  ( 4 N-000047 )
-  ( 5 /Gate_Driver/WL_GATE )
-  ( 6 N-000049 )
-  ( 7 /Gate_Driver/WH_GATE )
-  ( 8 N-000048 )
- )
- ( /52C8564E/52C86181 IRF_SO8 U5 IR2101
-  ( 1 +12V )
-  ( 2 /Gate_Driver/VH_IN )
-  ( 3 /Gate_Driver/VL_IN )
-  ( 4 N-000044 )
-  ( 5 /Gate_Driver/VL_GATE )
-  ( 6 N-000041 )
-  ( 7 /Gate_Driver/VH_GATE )
-  ( 8 N-000043 )
- )
- ( /52C84BF5/52C84F75 IRF_SO8 U6 IRF8736
-  ( 1 /Current_sense/U_IN )
-  ( 2 /Current_sense/U_IN )
-  ( 3 /Current_sense/U_IN )
-  ( 4 N-000033 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52C84F7A IRF_SO8 U7 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000030 )
-  ( 5 /Current_sense/U_IN )
-  ( 6 /Current_sense/U_IN )
-  ( 7 /Current_sense/U_IN )
-  ( 8 /Current_sense/U_IN )
- )
- ( /52C84BF5/52C84F76 IRF_SO8 U8 IRF8736
-  ( 1 /Current_sense/U_IN )
-  ( 2 /Current_sense/U_IN )
-  ( 3 /Current_sense/U_IN )
-  ( 4 N-000032 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52C84F79 IRF_SO8 U9 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000029 )
-  ( 5 /Current_sense/U_IN )
-  ( 6 /Current_sense/U_IN )
-  ( 7 /Current_sense/U_IN )
-  ( 8 /Current_sense/U_IN )
- )
- ( /52C84BF5/52C84F77 IRF_SO8 U10 IRF8736
-  ( 1 /Current_sense/U_IN )
-  ( 2 /Current_sense/U_IN )
-  ( 3 /Current_sense/U_IN )
-  ( 4 N-000031 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52C84F78 IRF_SO8 U11 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000028 )
-  ( 5 /Current_sense/U_IN )
-  ( 6 /Current_sense/U_IN )
-  ( 7 /Current_sense/U_IN )
-  ( 8 /Current_sense/U_IN )
- )
- ( /52C84BF5/52CDE396 IRF_SO8 U12 IRF8736
-  ( 1 /MOSFET/V_OUT )
-  ( 2 /MOSFET/V_OUT )
-  ( 3 /MOSFET/V_OUT )
-  ( 4 N-000034 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52CDE391 IRF_SO8 U13 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000025 )
-  ( 5 /MOSFET/V_OUT )
-  ( 6 /MOSFET/V_OUT )
-  ( 7 /MOSFET/V_OUT )
-  ( 8 /MOSFET/V_OUT )
- )
- ( /52C84BF5/52CDE395 IRF_SO8 U14 IRF8736
-  ( 1 /MOSFET/V_OUT )
-  ( 2 /MOSFET/V_OUT )
-  ( 3 /MOSFET/V_OUT )
-  ( 4 N-000035 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52CDE392 IRF_SO8 U15 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000026 )
-  ( 5 /MOSFET/V_OUT )
-  ( 6 /MOSFET/V_OUT )
-  ( 7 /MOSFET/V_OUT )
-  ( 8 /MOSFET/V_OUT )
- )
- ( /52C84BF5/52CDE394 IRF_SO8 U16 IRF8736
-  ( 1 /MOSFET/V_OUT )
-  ( 2 /MOSFET/V_OUT )
-  ( 3 /MOSFET/V_OUT )
-  ( 4 N-000036 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52CDE393 IRF_SO8 U17 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000027 )
-  ( 5 /MOSFET/V_OUT )
-  ( 6 /MOSFET/V_OUT )
-  ( 7 /MOSFET/V_OUT )
-  ( 8 /MOSFET/V_OUT )
- )
- ( /52C84BF5/52CDE397 IRF_SO8 U18 IRF8736
-  ( 1 /Current_sense/W_IN )
-  ( 2 /Current_sense/W_IN )
-  ( 3 /Current_sense/W_IN )
-  ( 4 N-000040 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52CDE39C IRF_SO8 U19 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000038 )
-  ( 5 /Current_sense/W_IN )
-  ( 6 /Current_sense/W_IN )
-  ( 7 /Current_sense/W_IN )
-  ( 8 /Current_sense/W_IN )
- )
- ( /52C84BF5/52CDE398 IRF_SO8 U20 IRF8736
-  ( 1 /Current_sense/W_IN )
-  ( 2 /Current_sense/W_IN )
-  ( 3 /Current_sense/W_IN )
-  ( 4 N-000039 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52CDE39B IRF_SO8 U21 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000024 )
-  ( 5 /Current_sense/W_IN )
-  ( 6 /Current_sense/W_IN )
-  ( 7 /Current_sense/W_IN )
-  ( 8 /Current_sense/W_IN )
- )
- ( /52C84BF5/52CDE399 IRF_SO8 U22 IRF8736
-  ( 1 /Current_sense/W_IN )
-  ( 2 /Current_sense/W_IN )
-  ( 3 /Current_sense/W_IN )
-  ( 4 N-000037 )
-  ( 5 +12V )
-  ( 6 +12V )
-  ( 7 +12V )
-  ( 8 +12V )
- )
- ( /52C84BF5/52CDE39A IRF_SO8 U23 IRF8736
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000023 )
-  ( 5 /Current_sense/W_IN )
-  ( 6 /Current_sense/W_IN )
-  ( 7 /Current_sense/W_IN )
-  ( 8 /Current_sense/W_IN )
+ ( /52DF0421 $noname  P1 CONN_20 {Lib=CONN_20}
+  (    1 /Gate_Driver/UH_IN )
+  (    2 /Gate_Driver/UL_IN )
+  (    3 /Gate_Driver/VH_IN )
+  (    4 /Gate_Driver/VL_IN )
+  (    5 /Gate_Driver/WH_IN )
+  (    6 /Gate_Driver/WL_IN )
+  (    7 GND )
+  (    8 /Current_sense/U_CURRSENSE )
+  (    9 /Current_sense/W_CURRSENSE )
+  (   10 N-000029 )
+  (   11 N-000010 )
+  (   12 N-000011 )
+  (   13 +V_SENSOR )
+  (   14 GND )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+ )
+ ( /52CF3F78 $noname  C3 C {Lib=C}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /52CF3F74 $noname  C4 CP1 {Lib=CP1}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /52CF3F68 $noname  C5 CP1 {Lib=CP1}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /52CF3D4E $noname  R5 R {Lib=R}
+  (    1 GND )
+  (    2 N-000029 )
+ )
+ ( /52CF3D4B $noname  R3 R {Lib=R}
+  (    1 GND )
+  (    2 N-000010 )
+ )
+ ( /52CF3D43 $noname  R1 R {Lib=R}
+  (    1 GND )
+  (    2 N-000011 )
+ )
+ ( /52CF3D24 $noname  R6 R {Lib=R}
+  (    1 N-000029 )
+  (    2 /Current_sense/W_OUT )
+ )
+ ( /52CF3D1F $noname  R4 R {Lib=R}
+  (    1 N-000010 )
+  (    2 /MOSFET/V_OUT )
+ )
+ ( /52CF3D16 $noname  R2 R {Lib=R}
+  (    1 N-000011 )
+  (    2 /Current_sense/U_OUT )
+ )
+ ( /52CF37A0 $noname  C1 C {Lib=C}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /52CF379A $noname  C2 C {Lib=C}
+  (    1 +10V )
+  (    2 GND )
+ )
+ ( /52CF3791 $noname  U1 10V_REG {Lib=10V_REG}
+  (    1 +12V )
+  (    2 GND )
+  (    3 +10V )
+  (    4 GND )
+ )
+ ( /52C8651D $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /52C864C1 $noname  P2 CONN_3 {Lib=CONN_3}
+  (    1 /Current_sense/U_OUT )
+  (    2 /MOSFET/V_OUT )
+  (    3 /Current_sense/W_OUT )
+ )
+ ( /52C8627E/52DED1ED $noname  R38 R {Lib=R}
+  (    1 N-000065 )
+  (    2 /Current_sense/W_CURRSENSE )
+ )
+ ( /52C8627E/52DED15D $noname  R37 R {Lib=R}
+  (    1 N-000064 )
+  (    2 /Current_sense/U_CURRSENSE )
+ )
+ ( /52C8627E/52DED113 $noname  U3 ACS759 {Lib=ACS759}
+  (    1 +V_SENSOR )
+  (    2 N-000067 )
+  (    3 N-000065 )
+  (    4 /Current_sense/W_IN )
+  (    5 /Current_sense/W_OUT )
+ )
+ ( /52C8627E/52DED0EB $noname  U2 ACS759 {Lib=ACS759}
+  (    1 +V_SENSOR )
+  (    2 N-000066 )
+  (    3 N-000064 )
+  (    4 /Current_sense/U_IN )
+  (    5 /Current_sense/U_OUT )
+ )
+ ( /52C8627E/52C8A41C $noname  C7 C {Lib=C}
+  (    1 +V_SENSOR )
+  (    2 N-000067 )
+ )
+ ( /52C8627E/52C8A41B $noname  C9 C {Lib=C}
+  (    1 N-000067 )
+  (    2 /Current_sense/W_CURRSENSE )
+ )
+ ( /52C8627E/52C8A2D6 $noname  C8 C {Lib=C}
+  (    1 N-000066 )
+  (    2 /Current_sense/U_CURRSENSE )
+ )
+ ( /52C8627E/52C8A2D0 $noname  C6 C {Lib=C}
+  (    1 +V_SENSOR )
+  (    2 N-000066 )
+ )
+ ( /52C8564E/52C86196 $noname  U5 IR2101 {Lib=IR2101}
+  (    1 +10V )
+  (    2 /Gate_Driver/WH_IN )
+  (    3 /Gate_Driver/WL_IN )
+  (    4 N-000060 )
+  (    5 /Gate_Driver/WL_GATE )
+  (    6 /Current_sense/W_IN )
+  (    7 /Gate_Driver/WH_GATE )
+  (    8 N-000059 )
+ )
+ ( /52C8564E/52C86195 $noname  D2 DIODE {Lib=DIODE}
+  (    1 +10V )
+  (    2 N-000059 )
+ )
+ ( /52C8564E/52C86194 $noname  C15 4u7 {Lib=C}
+  (    1 N-000059 )
+  (    2 /Current_sense/W_IN )
+ )
+ ( /52C8564E/52C86193 $noname  C13 C {Lib=C}
+  (    1 +10V )
+  (    2 N-000060 )
+ )
+ ( /52C8564E/52C86190 $noname  R8 R {Lib=R}
+  (    1 /Gate_Driver/WL_IN )
+  (    2 GND )
+ )
+ ( /52C8564E/52C8618F $noname  R10 R {Lib=R}
+  (    1 /Gate_Driver/WH_IN )
+  (    2 GND )
+ )
+ ( /52C8564E/52C86181 $noname  U6 IR2101 {Lib=IR2101}
+  (    1 +10V )
+  (    2 /Gate_Driver/VH_IN )
+  (    3 /Gate_Driver/VL_IN )
+  (    4 N-000062 )
+  (    5 /Gate_Driver/VL_GATE )
+  (    6 /MOSFET/V_OUT )
+  (    7 /Gate_Driver/VH_GATE )
+  (    8 N-000058 )
+ )
+ ( /52C8564E/52C86180 $noname  D3 DIODE {Lib=DIODE}
+  (    1 +10V )
+  (    2 N-000058 )
+ )
+ ( /52C8564E/52C8617F $noname  C17 4u7 {Lib=C}
+  (    1 N-000058 )
+  (    2 /MOSFET/V_OUT )
+ )
+ ( /52C8564E/52C8617E $noname  C16 C {Lib=C}
+  (    1 +10V )
+  (    2 N-000062 )
+ )
+ ( /52C8564E/52C8617B $noname  R11 R {Lib=R}
+  (    1 /Gate_Driver/VL_IN )
+  (    2 GND )
+ )
+ ( /52C8564E/52C8617A $noname  R12 R {Lib=R}
+  (    1 /Gate_Driver/VH_IN )
+  (    2 GND )
+ )
+ ( /52C8564E/52C8574D $noname  R9 R {Lib=R}
+  (    1 /Gate_Driver/UH_IN )
+  (    2 GND )
+ )
+ ( /52C8564E/52C85748 $noname  R7 R {Lib=R}
+  (    1 /Gate_Driver/UL_IN )
+  (    2 GND )
+ )
+ ( /52C8564E/52C856EB $noname  C12 C {Lib=C}
+  (    1 +10V )
+  (    2 N-000063 )
+ )
+ ( /52C8564E/52C856CD $noname  C14 4u7 {Lib=C}
+  (    1 N-000061 )
+  (    2 /Current_sense/U_IN )
+ )
+ ( /52C8564E/52C856A3 $noname  D1 DIODE {Lib=DIODE}
+  (    1 +10V )
+  (    2 N-000061 )
+ )
+ ( /52C8564E/52C8569E $noname  U4 IR2101 {Lib=IR2101}
+  (    1 +10V )
+  (    2 /Gate_Driver/UH_IN )
+  (    3 /Gate_Driver/UL_IN )
+  (    4 N-000063 )
+  (    5 /Gate_Driver/UL_GATE )
+  (    6 /Current_sense/U_IN )
+  (    7 /Gate_Driver/UH_GATE )
+  (    8 N-000061 )
+ )
+ ( /52C84BF5/52DEBF10 $noname  R36 100 {Lib=R}
+  (    1 N-000033 )
+  (    2 /Gate_Driver/WL_GATE )
+ )
+ ( /52C84BF5/52DEBF0B $noname  R35 100 {Lib=R}
+  (    1 N-000037 )
+  (    2 /Gate_Driver/WH_GATE )
+ )
+ ( /52C84BF5/52DEBF06 $noname  R28 100 {Lib=R}
+  (    1 N-000035 )
+  (    2 /Gate_Driver/VL_GATE )
+ )
+ ( /52C84BF5/52DEBF02 $noname  R27 100 {Lib=R}
+  (    1 N-000034 )
+  (    2 /Gate_Driver/VH_GATE )
+ )
+ ( /52C84BF5/52DEBEFE $noname  R20 100 {Lib=R}
+  (    1 N-000036 )
+  (    2 /Gate_Driver/UL_GATE )
+ )
+ ( /52C84BF5/52DEBEF9 $noname  R19 100 {Lib=R}
+  (    1 N-000038 )
+  (    2 /Gate_Driver/UH_GATE )
+ )
+ ( /52C84BF5/52DEBE55 $noname  U30 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000033 )
+  (    5 /Current_sense/W_IN )
+  (    6 /Current_sense/W_IN )
+  (    7 /Current_sense/W_IN )
+  (    8 /Current_sense/W_IN )
+ )
+ ( /52C84BF5/52DEBE4F $noname  U29 IRF8736 {Lib=IRF8736}
+  (    1 /Current_sense/W_IN )
+  (    2 /Current_sense/W_IN )
+  (    3 /Current_sense/W_IN )
+  (    4 N-000037 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52DEBE1D $noname  U22 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000035 )
+  (    5 /MOSFET/V_OUT )
+  (    6 /MOSFET/V_OUT )
+  (    7 /MOSFET/V_OUT )
+  (    8 /MOSFET/V_OUT )
+ )
+ ( /52C84BF5/52DEBE06 $noname  U21 IRF8736 {Lib=IRF8736}
+  (    1 /MOSFET/V_OUT )
+  (    2 /MOSFET/V_OUT )
+  (    3 /MOSFET/V_OUT )
+  (    4 N-000034 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52DEBD24 $noname  U14 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000036 )
+  (    5 /Current_sense/U_IN )
+  (    6 /Current_sense/U_IN )
+  (    7 /Current_sense/U_IN )
+  (    8 /Current_sense/U_IN )
+ )
+ ( /52C84BF5/52DEBD0C $noname  U13 IRF8736 {Lib=IRF8736}
+  (    1 /Current_sense/U_IN )
+  (    2 /Current_sense/U_IN )
+  (    3 /Current_sense/U_IN )
+  (    4 N-000038 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52CDE3A2 $noname  R34 100 {Lib=R}
+  (    1 N-000054 )
+  (    2 /Gate_Driver/WL_GATE )
+ )
+ ( /52C84BF5/52CDE3A1 $noname  R32 100 {Lib=R}
+  (    1 N-000053 )
+  (    2 /Gate_Driver/WL_GATE )
+ )
+ ( /52C84BF5/52CDE3A0 $noname  R30 100 {Lib=R}
+  (    1 N-000052 )
+  (    2 /Gate_Driver/WL_GATE )
+ )
+ ( /52C84BF5/52CDE39F $noname  R33 100 {Lib=R}
+  (    1 N-000055 )
+  (    2 /Gate_Driver/WH_GATE )
+ )
+ ( /52C84BF5/52CDE39E $noname  R31 100 {Lib=R}
+  (    1 N-000056 )
+  (    2 /Gate_Driver/WH_GATE )
+ )
+ ( /52C84BF5/52CDE39D $noname  R29 100 {Lib=R}
+  (    1 N-000057 )
+  (    2 /Gate_Driver/WH_GATE )
+ )
+ ( /52C84BF5/52CDE39C $noname  U24 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000052 )
+  (    5 /Current_sense/W_IN )
+  (    6 /Current_sense/W_IN )
+  (    7 /Current_sense/W_IN )
+  (    8 /Current_sense/W_IN )
+ )
+ ( /52C84BF5/52CDE39B $noname  U26 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000053 )
+  (    5 /Current_sense/W_IN )
+  (    6 /Current_sense/W_IN )
+  (    7 /Current_sense/W_IN )
+  (    8 /Current_sense/W_IN )
+ )
+ ( /52C84BF5/52CDE39A $noname  U28 IRF8736 {Lib=IRF8736}
+  (    1 N-000039 )
+  (    2 N-000039 )
+  (    3 N-000039 )
+  (    4 N-000054 )
+  (    5 /Current_sense/W_IN )
+  (    6 /Current_sense/W_IN )
+  (    7 /Current_sense/W_IN )
+  (    8 /Current_sense/W_IN )
+ )
+ ( /52C84BF5/52CDE399 $noname  U27 IRF8736 {Lib=IRF8736}
+  (    1 /Current_sense/W_IN )
+  (    2 /Current_sense/W_IN )
+  (    3 /Current_sense/W_IN )
+  (    4 N-000055 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52CDE398 $noname  U25 IRF8736 {Lib=IRF8736}
+  (    1 /Current_sense/W_IN )
+  (    2 /Current_sense/W_IN )
+  (    3 /Current_sense/W_IN )
+  (    4 N-000056 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52CDE397 $noname  U23 IRF8736 {Lib=IRF8736}
+  (    1 /Current_sense/W_IN )
+  (    2 /Current_sense/W_IN )
+  (    3 /Current_sense/W_IN )
+  (    4 N-000057 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52CDE396 $noname  U15 IRF8736 {Lib=IRF8736}
+  (    1 /MOSFET/V_OUT )
+  (    2 /MOSFET/V_OUT )
+  (    3 /MOSFET/V_OUT )
+  (    4 N-000051 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52CDE395 $noname  U17 IRF8736 {Lib=IRF8736}
+  (    1 /MOSFET/V_OUT )
+  (    2 /MOSFET/V_OUT )
+  (    3 /MOSFET/V_OUT )
+  (    4 N-000041 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52CDE394 $noname  U19 IRF8736 {Lib=IRF8736}
+  (    1 /MOSFET/V_OUT )
+  (    2 /MOSFET/V_OUT )
+  (    3 /MOSFET/V_OUT )
+  (    4 N-000042 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52CDE393 $noname  U20 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000045 )
+  (    5 /MOSFET/V_OUT )
+  (    6 /MOSFET/V_OUT )
+  (    7 /MOSFET/V_OUT )
+  (    8 /MOSFET/V_OUT )
+ )
+ ( /52C84BF5/52CDE392 $noname  U18 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000044 )
+  (    5 /MOSFET/V_OUT )
+  (    6 /MOSFET/V_OUT )
+  (    7 /MOSFET/V_OUT )
+  (    8 /MOSFET/V_OUT )
+ )
+ ( /52C84BF5/52CDE391 $noname  U16 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000043 )
+  (    5 /MOSFET/V_OUT )
+  (    6 /MOSFET/V_OUT )
+  (    7 /MOSFET/V_OUT )
+  (    8 /MOSFET/V_OUT )
+ )
+ ( /52C84BF5/52CDE390 $noname  R21 100 {Lib=R}
+  (    1 N-000051 )
+  (    2 /Gate_Driver/VH_GATE )
+ )
+ ( /52C84BF5/52CDE38F $noname  R23 100 {Lib=R}
+  (    1 N-000041 )
+  (    2 /Gate_Driver/VH_GATE )
+ )
+ ( /52C84BF5/52CDE38E $noname  R25 100 {Lib=R}
+  (    1 N-000042 )
+  (    2 /Gate_Driver/VH_GATE )
+ )
+ ( /52C84BF5/52CDE38D $noname  R22 100 {Lib=R}
+  (    1 N-000043 )
+  (    2 /Gate_Driver/VL_GATE )
+ )
+ ( /52C84BF5/52CDE38C $noname  R24 100 {Lib=R}
+  (    1 N-000044 )
+  (    2 /Gate_Driver/VL_GATE )
+ )
+ ( /52C84BF5/52CDE38B $noname  R26 100 {Lib=R}
+  (    1 N-000045 )
+  (    2 /Gate_Driver/VL_GATE )
+ )
+ ( /52C84BF5/52CDE312 $noname  R18 100 {Lib=R}
+  (    1 N-000046 )
+  (    2 /Gate_Driver/UL_GATE )
+ )
+ ( /52C84BF5/52CDE30C $noname  R16 100 {Lib=R}
+  (    1 N-000040 )
+  (    2 /Gate_Driver/UL_GATE )
+ )
+ ( /52C84BF5/52CDE308 $noname  R14 100 {Lib=R}
+  (    1 N-000047 )
+  (    2 /Gate_Driver/UL_GATE )
+ )
+ ( /52C84BF5/52CDE261 $noname  R17 100 {Lib=R}
+  (    1 N-000048 )
+  (    2 /Gate_Driver/UH_GATE )
+ )
+ ( /52C84BF5/52CDE259 $noname  R15 100 {Lib=R}
+  (    1 N-000049 )
+  (    2 /Gate_Driver/UH_GATE )
+ )
+ ( /52C84BF5/52CDE216 $noname  R13 100 {Lib=R}
+  (    1 N-000050 )
+  (    2 /Gate_Driver/UH_GATE )
+ )
+ ( /52C84BF5/52C84F7A $noname  U8 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000047 )
+  (    5 /Current_sense/U_IN )
+  (    6 /Current_sense/U_IN )
+  (    7 /Current_sense/U_IN )
+  (    8 /Current_sense/U_IN )
+ )
+ ( /52C84BF5/52C84F79 $noname  U10 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000040 )
+  (    5 /Current_sense/U_IN )
+  (    6 /Current_sense/U_IN )
+  (    7 /Current_sense/U_IN )
+  (    8 /Current_sense/U_IN )
+ )
+ ( /52C84BF5/52C84F78 $noname  U12 IRF8736 {Lib=IRF8736}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000046 )
+  (    5 /Current_sense/U_IN )
+  (    6 /Current_sense/U_IN )
+  (    7 /Current_sense/U_IN )
+  (    8 /Current_sense/U_IN )
+ )
+ ( /52C84BF5/52C84F77 $noname  U11 IRF8736 {Lib=IRF8736}
+  (    1 /Current_sense/U_IN )
+  (    2 /Current_sense/U_IN )
+  (    3 /Current_sense/U_IN )
+  (    4 N-000048 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52C84F76 $noname  U9 IRF8736 {Lib=IRF8736}
+  (    1 /Current_sense/U_IN )
+  (    2 /Current_sense/U_IN )
+  (    3 /Current_sense/U_IN )
+  (    4 N-000049 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
+ )
+ ( /52C84BF5/52C84F75 $noname  U7 IRF8736 {Lib=IRF8736}
+  (    1 /Current_sense/U_IN )
+  (    2 /Current_sense/U_IN )
+  (    3 /Current_sense/U_IN )
+  (    4 N-000050 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 +12V )
+  (    8 +12V )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
 $component C3
  SM*
  C?
  C1-1
 $endlist
 $component C4
+ CP*
  SM*
- C?
- C1-1
 $endlist
 $component C5
+ CP*
  SM*
- C?
- C1-1
 $endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C12
- SM*
- C?
- C1-1
-$endlist
-$component D1
- D?
- S*
-$endlist
-$component D2
- D?
- S*
-$endlist
-$component D3
- D?
- S*
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
+$component R5
  R?
  SM0603
  SM0805
@@ -531,14 +575,7 @@ $component R3
  R?-*
  SM1206
 $endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
+$component R1
  R?
  SM0603
  SM0805
@@ -552,21 +589,79 @@ $component R6
  R?-*
  SM1206
 $endlist
-$component R7
+$component R4
  R?
  SM0603
  SM0805
  R?-*
  SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R38
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R37
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
 $endlist
 $component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
  R?
  SM0603
  SM0805
@@ -579,6 +674,20 @@ $component R10
  SM0805
  R?-*
  SM1206
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
 $endlist
 $component R11
  R?
@@ -594,49 +703,56 @@ $component R12
  R?-*
  SM1206
 $endlist
-$component R13
+$component R9
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R14
+$component R7
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R15
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R36
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R16
+$component R35
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R17
+$component R28
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R18
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R19
+$component R27
  R?
  SM0603
  SM0805
@@ -650,14 +766,56 @@ $component R20
  R?-*
  SM1206
 $endlist
-$component R21
+$component R19
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R22
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
  R?
  SM0603
  SM0805
@@ -671,7 +829,70 @@ $component R23
  R?-*
  SM1206
 $endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
  R?
  SM0603
  SM0805
@@ -680,3 +901,428 @@ $component R24
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ R10 2
+ R8 2
+ U16 1
+ U24 1
+ U18 1
+ U22 3
+ U22 2
+ U22 1
+ U8 1
+ U10 3
+ U8 2
+ U18 2
+ R9 2
+ R7 2
+ U18 3
+ U16 3
+ U16 2
+ U26 3
+ U26 2
+ U26 1
+ U24 3
+ U24 2
+ U12 3
+ U12 2
+ U12 1
+ U10 2
+ U10 1
+ U8 3
+ U20 2
+ U20 1
+ U30 3
+ P1 14
+ U20 3
+ C3 2
+ P1 7
+ U1 2
+ C2 2
+ R11 2
+ R12 2
+ U14 1
+ C5 2
+ U30 1
+ C4 2
+ R1 1
+ R3 1
+ R5 1
+ U30 2
+ U14 2
+ P3 2
+ U14 3
+ U1 4
+ C1 2
+Net 2 "/Current sense/W_OUT" "W_OUT"
+ P2 3
+ R6 2
+ U3 5
+Net 3 "+V_SENSOR" "+V_SENSOR"
+ P1 13
+ U2 1
+ C6 1
+ U3 1
+ C7 1
+Net 4 "/Current sense/U_OUT" "U_OUT"
+ U2 5
+ P2 1
+ R2 2
+Net 5 "+12V" "+12V"
+ U7 8
+ U19 6
+ U25 8
+ U25 6
+ U25 5
+ U27 8
+ U27 7
+ U27 6
+ U27 5
+ U25 7
+ U19 8
+ U19 7
+ U23 5
+ U19 5
+ U17 7
+ U17 6
+ U17 5
+ U23 8
+ U23 7
+ U23 6
+ U7 7
+ U13 5
+ U7 6
+ U7 5
+ U9 8
+ U9 7
+ U9 6
+ U9 5
+ U11 8
+ U11 7
+ U11 6
+ U15 8
+ U15 7
+ U15 6
+ U15 5
+ U17 8
+ U11 5
+ U13 8
+ U13 7
+ U13 6
+ U21 8
+ U21 7
+ U21 6
+ U21 5
+ U29 7
+ U29 8
+ C4 1
+ C3 1
+ U1 1
+ C1 1
+ C5 1
+ U29 5
+ U29 6
+ P3 1
+Net 6 "+10V" "+10V"
+ C12 1
+ C2 1
+ U1 3
+ C13 1
+ U6 1
+ U5 1
+ D2 1
+ C16 1
+ U4 1
+ D1 1
+ D3 1
+Net 8 "/Current sense/W_CURRSENSE" "W_CURRSENSE"
+ R38 2
+ P1 9
+ C9 2
+Net 10 "" ""
+ P1 11
+ R4 1
+ R3 2
+Net 11 "" ""
+ P1 12
+ R1 2
+ R2 1
+Net 16 "/Gate Driver/UL_GATE" "UL_GATE"
+ R20 2
+ U4 5
+ R18 2
+ R16 2
+ R14 2
+Net 17 "/Gate Driver/UH_GATE" "UH_GATE"
+ U4 7
+ R19 2
+ R13 2
+ R15 2
+ R17 2
+Net 18 "/Gate Driver/VH_GATE" "VH_GATE"
+ R27 2
+ R21 2
+ U6 7
+ R23 2
+ R25 2
+Net 19 "/Gate Driver/VL_GATE" "VL_GATE"
+ R24 2
+ U6 5
+ R22 2
+ R28 2
+ R26 2
+Net 20 "/Current sense/W_IN" "W_IN"
+ U27 2
+ U30 6
+ U30 7
+ U24 7
+ C15 2
+ U3 4
+ U29 3
+ U29 2
+ U29 1
+ U30 8
+ U23 3
+ U23 2
+ U23 1
+ U25 3
+ U25 2
+ U25 1
+ U27 3
+ U5 6
+ U30 5
+ U27 1
+ U28 8
+ U28 7
+ U28 6
+ U28 5
+ U26 8
+ U26 7
+ U26 5
+ U24 8
+ U24 6
+ U24 5
+ U26 6
+Net 21 "/MOSFET/V_OUT" "V_OUT"
+ U21 2
+ U22 5
+ U22 6
+ U22 7
+ U22 8
+ U21 1
+ U21 3
+ U20 5
+ C17 2
+ U20 6
+ U20 7
+ U20 8
+ R4 2
+ P2 2
+ U15 2
+ U6 6
+ U17 1
+ U17 2
+ U17 3
+ U15 3
+ U19 1
+ U19 2
+ U19 3
+ U18 6
+ U18 7
+ U18 5
+ U15 1
+ U18 8
+ U16 5
+ U16 6
+ U16 7
+ U16 8
+Net 22 "/Current sense/U_IN" "U_IN"
+ U2 4
+ U12 6
+ C14 2
+ U4 6
+ U14 8
+ U10 5
+ U10 6
+ U10 7
+ U10 8
+ U12 5
+ U11 1
+ U11 2
+ U13 1
+ U13 2
+ U13 3
+ U12 8
+ U7 2
+ U9 1
+ U9 2
+ U11 3
+ U9 3
+ U12 7
+ U14 5
+ U7 1
+ U7 3
+ U8 5
+ U8 6
+ U8 7
+ U8 8
+ U14 6
+ U14 7
+Net 23 "/Current sense/U_CURRSENSE" "U_CURRSENSE"
+ C8 2
+ R37 2
+ P1 8
+Net 24 "/Gate Driver/WH_IN" "WH_IN"
+ U5 2
+ R10 1
+ P1 5
+Net 25 "/Gate Driver/WL_IN" "WL_IN"
+ R8 1
+ U5 3
+ P1 6
+Net 26 "/Gate Driver/WH_GATE" "WH_GATE"
+ R29 2
+ R31 2
+ R33 2
+ U5 7
+ R35 2
+Net 27 "/Gate Driver/WL_GATE" "WL_GATE"
+ R36 2
+ R30 2
+ R34 2
+ U5 5
+ R32 2
+Net 28 "/Gate Driver/UH_IN" "UH_IN"
+ P1 1
+ R9 1
+ U4 2
+Net 29 "" ""
+ R5 2
+ R6 1
+ P1 10
+Net 30 "/Gate Driver/VH_IN" "VH_IN"
+ R12 1
+ U6 2
+ P1 3
+Net 31 "/Gate Driver/UL_IN" "UL_IN"
+ U4 3
+ P1 2
+ R7 1
+Net 32 "/Gate Driver/VL_IN" "VL_IN"
+ R11 1
+ P1 4
+ U6 3
+Net 33 "" ""
+ U30 4
+ R36 1
+Net 34 "" ""
+ R27 1
+ U21 4
+Net 35 "" ""
+ U22 4
+ R28 1
+Net 36 "" ""
+ U14 4
+ R20 1
+Net 37 "" ""
+ R35 1
+ U29 4
+Net 38 "" ""
+ U13 4
+ R19 1
+Net 39 "" ""
+ U28 2
+ U28 1
+ U28 3
+Net 40 "" ""
+ U10 4
+ R16 1
+Net 41 "" ""
+ U17 4
+ R23 1
+Net 42 "" ""
+ U19 4
+ R25 1
+Net 43 "" ""
+ R22 1
+ U16 4
+Net 44 "" ""
+ U18 4
+ R24 1
+Net 45 "" ""
+ U20 4
+ R26 1
+Net 46 "" ""
+ U12 4
+ R18 1
+Net 47 "" ""
+ U8 4
+ R14 1
+Net 48 "" ""
+ U11 4
+ R17 1
+Net 49 "" ""
+ U9 4
+ R15 1
+Net 50 "" ""
+ U7 4
+ R13 1
+Net 51 "" ""
+ U15 4
+ R21 1
+Net 52 "" ""
+ R30 1
+ U24 4
+Net 53 "" ""
+ R32 1
+ U26 4
+Net 54 "" ""
+ R34 1
+ U28 4
+Net 55 "" ""
+ R33 1
+ U27 4
+Net 56 "" ""
+ U25 4
+ R31 1
+Net 57 "" ""
+ U23 4
+ R29 1
+Net 58 "" ""
+ U6 8
+ D3 2
+ C17 1
+Net 59 "" ""
+ U5 8
+ D2 2
+ C15 1
+Net 60 "" ""
+ U5 4
+ C13 2
+Net 61 "" ""
+ C14 1
+ D1 2
+ U4 8
+Net 62 "" ""
+ U6 4
+ C16 2
+Net 63 "" ""
+ C12 2
+ U4 4
+Net 64 "" ""
+ R37 1
+ U2 3
+Net 65 "" ""
+ U3 3
+ R38 1
+Net 66 "" ""
+ C6 2
+ U2 2
+ C8 1
+Net 67 "" ""
+ C7 2
+ C9 1
+ U3 2
+}
+#End
