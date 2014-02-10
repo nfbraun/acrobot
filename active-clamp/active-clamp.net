@@ -1,0 +1,287 @@
+# EESchema Netlist Version 1.1 created  Mo 10 Feb 2014 23:10:24 CET
+(
+ ( /52CF4247 $noname$ C1 C
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /52CF4262 $noname$ C2 C
+  ( 1 /+10V )
+  ( 2 GND )
+ )
+ ( /52CF3196 SM0805 C3 1nF
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /52CF42A9 $noname$ C4 C
+  ( 1 ? )
+  ( 2 GND )
+ )
+ ( /52CF42AD $noname$ C5 CP1
+  ( 1 ? )
+  ( 2 GND )
+ )
+ ( /52CF429E $noname$ P1 CONN_2
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /52CF28B2 $noname$ P2 CONN_2
+  ( 1 +12V )
+  ( 2 N-000021 )
+ )
+ ( /52CF2C8B SM0805 R1 6k8
+  ( 1 /+10V )
+  ( 2 N-000018 )
+ )
+ ( /52CF2937 SM0805 R2 39k
+  ( 1 N-000004 )
+  ( 2 +12V )
+ )
+ ( /52CF3238 SM0805 R3 18k
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /52CF2C92 SM0805 R4 6k8
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /52CF3207 SM0805 R5 270k
+  ( 1 N-000004 )
+  ( 2 N-000020 )
+ )
+ ( /52CF318A SM0805 R6 10k
+  ( 1 N-000020 )
+  ( 2 N-000005 )
+ )
+ ( /52CF353E SM0603 R7 100
+  ( 1 N-000002 )
+  ( 2 N-000014 )
+ )
+ ( /52CF3543 SM0603 R8 100
+  ( 1 N-000003 )
+  ( 2 N-000014 )
+ )
+ ( /52CF3546 SM0603 R9 100
+  ( 1 N-000015 )
+  ( 2 N-000014 )
+ )
+ ( /52CF28BA $noname$ R10 R
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /52CF354A SM0603 R11 100
+  ( 1 N-000013 )
+  ( 2 N-000014 )
+ )
+ ( /52CF3551 SM0603 R12 100
+  ( 1 N-000012 )
+  ( 2 N-000014 )
+ )
+ ( /52F94DF0 SM0603 R13 100
+  ( 1 N-000008 )
+  ( 2 N-000014 )
+ )
+ ( /52CF2995 Murata_trimmer RV1 10k
+  ( 1 N-000018 )
+  ( 2 N-000001 )
+  ( 3 N-000017 )
+ )
+ ( /52CF3477 SOT223 U1 10V_REG
+  ( 1 +12V )
+  ( 2 GND )
+  ( 3 /+10V )
+  ( 4 GND )
+ )
+ ( /52CF348C SC70-5 U2 AD8565
+  ( 1 N-000020 )
+  ( 2 /+10V )
+  ( 3 N-000004 )
+  ( 4 N-000001 )
+  ( 5 GND )
+ )
+ ( /52CF2C3F SOT23-5 U3 MCP1416
+  ( 1 ? )
+  ( 2 /+10V )
+  ( 3 N-000005 )
+  ( 4 GND )
+  ( 5 N-000014 )
+ )
+ ( /52CF27BB IRF_SO8 U4 IRF8736
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000002 )
+  ( 5 N-000021 )
+  ( 6 N-000021 )
+  ( 7 N-000021 )
+  ( 8 N-000021 )
+ )
+ ( /52CF274D IRF_SO8 U5 IRF8736
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000003 )
+  ( 5 N-000021 )
+  ( 6 N-000021 )
+  ( 7 N-000021 )
+  ( 8 N-000021 )
+ )
+ ( /52CF2755 IRF_SO8 U6 IRF8736
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000015 )
+  ( 5 N-000021 )
+  ( 6 N-000021 )
+  ( 7 N-000021 )
+  ( 8 N-000021 )
+ )
+ ( /52CF275B IRF_SO8 U7 IRF8736
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000013 )
+  ( 5 N-000021 )
+  ( 6 N-000021 )
+  ( 7 N-000021 )
+  ( 8 N-000021 )
+ )
+ ( /52CF27B7 IRF_SO8 U8 IRF8736
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000012 )
+  ( 5 N-000021 )
+  ( 6 N-000021 )
+  ( 7 N-000021 )
+  ( 8 N-000021 )
+ )
+ ( /52F94BEF IRF_SO8 U9 IRF8736
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000008 )
+  ( 5 N-000021 )
+  ( 6 N-000021 )
+  ( 7 N-000021 )
+  ( 8 N-000021 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
