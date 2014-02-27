@@ -1,0 +1,258 @@
+# EESchema Netlist Version 1.1 created  Mi 12 Feb 2014 01:32:59 CET
+(
+ ( /52FAAE93 SM0603_Capa C1 100nF
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+ )
+ ( /52FAAEAD SM0805 C2 C
+  ( 1 N-000006 )
+  ( 2 N-000003 )
+ )
+ ( /52F95E58 C2 C3 1000uF
+  ( 1 V_IN )
+  ( 2 GND )
+ )
+ ( /52C96352 EPCOS_12000uF C4 12000uF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAE9B SM0805 C5 1uF
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+ )
+ ( /52FAB070 SM0603_Capa C6 100nF
+  ( 1 V_IN )
+  ( 2 GND )
+ )
+ ( /52FAB073 SM0805 C7 1uF
+  ( 1 V_IN )
+  ( 2 GND )
+ )
+ ( /52FAAF70 SM0603_Capa C8 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF73 SM0603_Capa C9 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF76 SM0603_Capa C10 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF78 SM0603_Capa C11 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF7E SM0603_Capa C12 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF8B SM0603_Capa C13 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF91 SM0603_Capa C14 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF97 SM0603_Capa C15 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF9C SM0603_Capa C16 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAAF9F SM0603_Capa C17 100nF
+  ( 1 V_CLAMP )
+  ( 2 GND )
+ )
+ ( /52FAB062 SM0603_Capa C18 100nF
+  ( 1 V_OUT )
+  ( 2 GND )
+ )
+ ( /52FAB066 SM0603_Capa C19 100nF
+  ( 1 V_OUT )
+  ( 2 GND )
+ )
+ ( /52FAB06A SM0603_Capa C20 100nF
+  ( 1 V_OUT )
+  ( 2 GND )
+ )
+ ( /52C9634C TO220_WITH_HEATSINK D1 DIODE
+  ( 1 V_IN )
+  ( 2 V_CLAMP )
+ )
+ ( /52C96357 ZENER_WITH_HEATSINK D2 ZENER
+  ( 1 GND )
+  ( 2 V_CLAMP )
+ )
+ ( /52F95CB4 CONN_3 K1 CONN_3
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+  ( 3 N-000003 )
+ )
+ ( /52FAAD07 HOLE_4mm P1 CONN_1
+  ( 1 V_IN )
+ )
+ ( /52FAAD12 HOLE_4mm P2 CONN_1
+  ( 1 GND )
+ )
+ ( /52FAADCE HOLE_4mm P3 CONN_1
+  ( 1 V_CLAMP )
+ )
+ ( /52FAADD2 HOLE_4mm P4 CONN_1
+  ( 1 GND )
+ )
+ ( /52FAADB7 HOLE_4mm P5 CONN_1
+  ( 1 V_OUT )
+ )
+ ( /52FAADBB HOLE_4mm P6 CONN_1
+  ( 1 GND )
+ )
+ ( /52FABF6F CONN_2 P7 CONN_2
+  ( 1 GND )
+  ( 2 V_IN )
+ )
+ ( /52FAAE78 SM0805 R1 R
+  ( 1 N-000007 )
+  ( 2 N-000003 )
+ )
+ ( /52FAAEC0 SM0805 R2 R
+  ( 1 N-000006 )
+  ( 2 N-000003 )
+ )
+ ( /52C96D6C ACS759 U1 ACS758
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+  ( 3 N-000007 )
+  ( 4 V_CLAMP )
+  ( 5 V_OUT )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
