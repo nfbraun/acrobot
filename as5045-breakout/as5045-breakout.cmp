@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2014-01-25 BZR 4633)-product date = Sat 01 Mar 2014 10:50:59 PM CET
+
+BeginCmp
+TimeStamp = /530FF0AC;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /530FF0C0;
+Reference = C2;
+ValeurCmp = 10µ;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /530FFA5D;
+Reference = D1;
+ValeurCmp = LED_BI_COLOR;
+IdModule  = owncomp:LED_BI_COLOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /530FF1AB;
+Reference = P1;
+ValeurCmp = CONN_6X2;
+IdModule  = owncomp:CONN_6x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /530FF110;
+Reference = R1;
+ValeurCmp = 680R;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /530FF0D4;
+Reference = R2;
+ValeurCmp = 680R;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /530FF08E;
+Reference = U1;
+ValeurCmp = JMP_3;
+IdModule  = owncomp:SOLDERSW_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /530FF07A;
+Reference = U2;
+ValeurCmp = AS5045;
+IdModule  = owncomp:SSOP-16_AS5045;
+EndCmp
+
+EndListe
