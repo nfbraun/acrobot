@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-25 BZR 4633)-product date = Sat 01 Mar 2014 10:50:59 PM CET
+Cmp-Mod V01 Created by CvPcb (2014-03-05 BZR 4734)-product date = Mi 18 Jun 2014 11:35:30 CEST
 
 BeginCmp
 TimeStamp = /530FF0AC;
@@ -8,38 +8,73 @@ IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /530FF0C0;
+TimeStamp = /53959BC6;
 Reference = C2;
 ValeurCmp = 10µ;
-IdModule  = SMD_Packages:SM0603_Capa;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /530FFA5D;
+TimeStamp = /53959C21;
+Reference = C3;
+ValeurCmp = 10µ;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A15CD0;
 Reference = D1;
-ValeurCmp = LED_BI_COLOR;
-IdModule  = owncomp:LED_BI_COLOR;
+ValeurCmp = LED (green);
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /530FF1AB;
+TimeStamp = /53A15C9E;
+Reference = D2;
+ValeurCmp = LED (yellow);
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A15CBC;
+Reference = D3;
+ValeurCmp = LED (red);
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5395A108;
 Reference = P1;
-ValeurCmp = CONN_6X2;
-IdModule  = owncomp:CONN_6x2;
+ValeurCmp = CONN_6;
+IdModule  = owncomp:FLATCONN_6;
 EndCmp
 
 BeginCmp
 TimeStamp = /530FF110;
 Reference = R1;
 ValeurCmp = 680R;
-IdModule  = SMD_Packages:SM0603_Resistor;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /530FF0D4;
 Reference = R2;
 ValeurCmp = 680R;
-IdModule  = SMD_Packages:SM0603_Resistor;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5395AF88;
+Reference = R3;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A15D43;
+Reference = R4;
+ValeurCmp = 680;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -54,6 +89,13 @@ TimeStamp = /530FF07A;
 Reference = U2;
 ValeurCmp = AS5045;
 IdModule  = owncomp:SSOP-16_AS5045;
+EndCmp
+
+BeginCmp
+TimeStamp = /53959A5D;
+Reference = U3;
+ValeurCmp = LM1117;
+IdModule  = SMD_Packages:SOT223;
 EndCmp
 
 EndListe
