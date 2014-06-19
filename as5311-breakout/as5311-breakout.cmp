@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-05 BZR 4734)-product date = So 15 Jun 2014 17:08:04 CEST
+
+BeginCmp
+TimeStamp = /539DA072;
+Reference = C1;
+ValeurCmp = 10µ;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DA086;
+Reference = C2;
+ValeurCmp = 10µ;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DAD0A;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DAFB7;
+Reference = D1;
+ValeurCmp = LED (green);
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DA86A;
+Reference = D2;
+ValeurCmp = LED (red);
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DA87E;
+Reference = D3;
+ValeurCmp = LED (yellow);
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5399EAAA;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = owncomp:FLATCONN_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /539D9BB6;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = owncomp:SQUARE_2x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /539D9BA2;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = owncomp:SQUARE_2x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DA938;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DA924;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DB69B;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DBD8B;
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DC023;
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5399E752;
+Reference = U1;
+ValeurCmp = AS5311;
+IdModule  = owncomp:TSSOP-20_AS5311;
+EndCmp
+
+BeginCmp
+TimeStamp = /539DA05E;
+Reference = U2;
+ValeurCmp = LM1117;
+IdModule  = SMD_Packages:SOT223;
+EndCmp
+
+EndListe
