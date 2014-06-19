@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-01 BZR 4730)-product date = Wed 18 Jun 2014 10:17:11 PM CEST
+
+BeginCmp
+TimeStamp = /53A1F0FA;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A18D91;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A18DA5;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A18D7D;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = owncomp:FLATCONN_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A18D1C;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = owncomp:FLATCONN_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A19CF7;
+Reference = R1;
+ValeurCmp = 62;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A19D0B;
+Reference = R2;
+ValeurCmp = 390;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A18DB9;
+Reference = R3;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A18DCD;
+Reference = R4;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A19674;
+Reference = R5;
+ValeurCmp = 15k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A196A3;
+Reference = R6;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A1975F;
+Reference = R7;
+ValeurCmp = 180;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A1F37F;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A1964C;
+Reference = U1;
+ValeurCmp = LMV321;
+IdModule  = SMD_Packages:SOT23-5;
+EndCmp
+
+EndListe
