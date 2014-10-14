@@ -1,3 +1,6 @@
 [submodule "kicad-modules"]
 	path = kicad-modules
 	url = https://github.com/nfbraun/kicad-modules
+[submodule "rs485/kicad-modules"]
+	path = rs485/kicad-modules
+	url = https://github.com/nfbraun/kicad-modules
